@@ -11,6 +11,10 @@ int calculate_result(struct Reader *reader) {
         if (head->tok_type != TOK_NUM) {
             // this is an operation:
             struct Token *op = head;
+            if (!op->next || !op->next->next) {
+                reader->had_error = true;
+                return -1;
+            }
             struct Token *val_a = head->next;
             struct Token *val_b = head->next->next;
 

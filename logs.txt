@@ -1,0 +1,508 @@
+   34  diff -u ref.out ci.out
+   35  make clean
+   36  make all
+   37  make test_week2
+   38  run clean
+   39  make clean
+   40  make all
+   41  make test_week2
+   42  make clean
+   43  make all
+   44  make test_week2
+   45  make clean
+   46  make all
+   47  make test_week2
+   48  make clean
+   49  make all
+   50  make test_week2
+   51  ls
+   52  grep -R "parse_commands" -n src include
+   53  make clean
+   54  make all
+   55  make test_week2
+   56  lw
+   57  ls
+   58  ./run_tests.sh
+   59  make
+   60  ./run_tests.sh
+   61    make all
+   62  bin/ci -h
+   63  bin/ci -i foo -o bar
+   64  ci_reference -i foo -o bar
+   65  bin/ci -i foo -o bar
+   66  bin/ci -i foo -o bar
+   67  bin/ci
+   68  bin/ci -h
+   69  bin/ci -p
+   70  bin/ci -p -i foo -o bar
+   71  make test_week2
+   72  make test_week2
+   73  make test_week2
+   74  ./ci_reference -i testcases/week2/add.s -o ref.out
+   75  ./bin/ci -i testcases/week2/add.s -o ci.out
+   76  diff -u ref.out ci.out
+   77  valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes ./bin/ci -i testcases/week2/add.s
+   78  gdb bin/ci 
+   79  make
+   80  make all
+   81  make all
+   82  make
+   83  make all
+   84  ls
+   85  make test_week2
+   86  make clean
+   87  make all
+   88  make testcases/week2
+   89  make test_week2
+   90  make clean
+   91  make all
+   92  make test_week2
+   93  make clean
+   94  make all
+   95  make test_week2
+   96  make clean
+   97  make all
+   98  make test_week2
+   99  make clean
+  100  make all
+  101  make test_week2
+  102  make clean
+  103  make all
+  104  make test_week2
+  105  make clean
+  106  make all
+  107  make test_week2
+  108  make clean
+  109  make all
+  110  make test_week2
+  111  make clean
+  112  make all
+  113  make test_week2
+  114  make clean
+  115  make all
+  116  make test_week2
+  117  make clean
+  118  make all
+  119  make test_week2
+  120  make clean
+  121  make all
+  122  make test_week2
+  123  make clean
+  124  make all
+  125  make test_week2
+  126  bin/ci test_week2
+  127  bin/ci -test_week2
+  128  bin/ci -i testcases/week2/nop_err.s
+  129  make testcases/week2/nop_err.s
+  130  make test_week2
+  131  make clean
+  132  make all
+  133  make all
+  134  make test_week2
+  135  make clean
+  136  make all
+  137  make test_week2
+  138  make clean
+  139  make all
+  140  make test_week2
+  141  make clean
+  142  make all
+  143  make test_week2
+  144  make all
+  145  make test_week2
+  146  make all
+  147  make test_week2
+  148  make all
+  149  make test_week2
+  150  make all
+  151  make test_week2
+  152  make all
+  153  make test_week2
+  154  make all
+  155  make test_week2
+  156  make all
+  157  make test_week2
+  158  make all
+  159  make test_week2
+  160  ./ci_reference -i 'testcases/week2/mov_exhaustive.s' -o ref.out
+  161  ./bin/ci -i 'testcases/week2/mov_exhaustive.s' -o ci.out
+  162  diff -u ref.out ci.out
+  163  make all
+  164  make test_week2
+  165  make all
+  166  make test_week2
+  167  make all
+  168  make test_week2
+  169  make all
+  170  make test_week2
+  171  make all
+  172  make test_week2
+  173  make all
+  174  make test_week2
+  175  make all
+  176  make test_week2
+  177  make all
+  178  make test_week2
+  179  make all
+  180  make test_week2
+  181  make all
+  182  make test_week2
+  183  make all
+  184  make test_week2
+  185  make all
+  186  make test_week2
+  187  make all
+  188  make test_week2
+  189  git add .
+  190  git commit -m "pass"
+  191  cd .
+  192  cd .
+  193  cd ..
+  194  ls
+  195  git init
+  196  ls
+  197  cd .git
+  198  ls
+  199  cd ..
+  200  ls
+  201  make test_week2
+  202  scp -r jennykh@agate:~/cs429-fa2026-ci-lab-jimjamms "C:\Users\jenny\Downloads"
+  203  scp -r jennykh@agate:~/cs429-fa2026-ci-lab-jimjamms C:\Users\jenny\Downloads
+  204  scp -r jennykh@agate:~/cs429-fa2026-ci-lab-jimjamms C:/Users/jenny/Downloads
+  205  make clean
+  206  make all
+  207  make test_week3
+  208  make clean
+  209  make all
+  210  make test_week3
+  211  make clean
+  212  make all
+  213  make test_week3
+  214  make clean
+  215  make all
+  216  make test_week3
+  217  ls
+  218  cd cs429-fa2026-ci-lab-jimjamms
+  219  git add .
+  220  git commit -m "week3"
+  221  git push
+  222  make clean
+  223  make all
+  224  make test_week3
+  225  ls
+  226  cd cs429-fa2026-ci-lab-jimjamms
+  227  make clean
+  228  make all
+  229  make test_week4
+  230  make test_hashtable
+  231  make test_hashtable
+  232  make test_week4
+  233  make test_week4
+  234  make test_week4
+  235  make clean
+  236  make all
+  237  make test_week4
+  238  make test_week4
+  239  make test_week4
+  240  make clean
+  241  make all
+  242  make test_week4
+  243  scp jennykh@agate.cs.utexas.edu:~/cs429-fa2026-ci-lab-jimjamms "C:\Users\jenny\Downloads"
+  244  scp jennykh@agate.cs.utexas.edu:~/cs429-fa2026-ci-lab-jimjamms C:/Users/jenny/Downloads
+  245  scp jennykh@agate:~/cs429-fa2026-ci-lab-jimjamms C:/Users/jenny/Downloads
+  246  scp -r jennykh@agate:~/cs429-fa2026-ci-lab-jimjamms "C:\Users\jenny\Downloads"
+  247  git add .
+  248  git commit -m "."
+  249  git push
+  250  make clean
+  251  make all
+  252  make test_week4
+  253  make clean
+  254  make all
+  255  make test_week4
+  256  make clean
+  257  make all
+  258  make test_week4
+  259  make clean
+  260  make all
+  261  make test_week4
+  262  make clean
+  263  make all
+  264  make test_week4
+  265  make clean
+  266  make all
+  267  ./ci_reference -i testcases/week2/mov_exhaustive.s -o ref.out
+  268  ./bin/ci -i testcases/week2/mov_exhaustive.s -o ci.out
+  269  makdiff -u ref.out ci.out
+  270  ./ci_reference -i testcases/week2/mov_exhaustive.s -o ref.out; echo "ref exit: $?"
+  271  ./bin/ci -i testcases/week2/mov_exhaustive.s -o ci.out; echo "ci exit: $?"
+  272  ./ci_reference -i testcases/week4/b_gt2.s -o ref.out; echo "ref exit: $?"
+  273  ./bin/ci -i testcases/week4/b_gt2.s -o ci.out; echo "ci exit: $?"
+  274  diff -u ref.out ci.out
+  275  ./ci_reference -i testcases/week4/b_gt_err.s -o ref.out; echo "ref exit: $?"
+  276  ./bin/ci -i testcases/week4/b_gt_err.s -o ci.out; echo "ci exit: $?"
+  277  diff -u ref.out ci.out
+  278  make clean
+  279  make all
+  280  make test_week4
+  281  ./ci_reference -i testcases/week4/b.eq_err.s -o ref.out; echo "ref exit: $?"
+  282  ./bin/ci -i testcases/week4/b.eq_err.s -o ci.out; echo "ci exit: $?"
+  283  echo "--- diff for b.eq_err.s ---"
+  284  diff -u ref.out ci.out
+  285  ./ci_reference -i testcases/week4/b.gt_err.s -o ref.out; echo "ref exit: $?"
+  286  ./bin/ci -i testcases/week4/b.gt_err.s -o ci.out; echo "ci exit: $?"
+  287  echo "--- diff for b.gt_err.s ---"
+  288  diff -u ref.out ci.out
+  289  ./ci_reference -i testcases/week4/b.lt_err.s -o ref.out; echo "ref exit: $?"
+  290  ./bin/ci -i testcases/week4/b.lt_err.s -o ci.out; echo "ci exit: $?"
+  291  echo "--- diff for b.lt_err.s ---"
+  292  diff -u ref.out ci.out
+  293  ./ci_reference -i testcases/week4/call_err2.s -o ref.out; echo "ref exit: $?"
+  294  ./bin/ci -i testcases/week4/call_err2.s -o ci.out; echo "ci exit: $?"
+  295  echo "--- diff for call_err2.s ---"
+  296  diff -u ref.out ci.out
+  297  make clean
+  298  make all
+  299  make test_week4
+  300  make hashtable
+  301  make test_hashtable
+  302  git add .
+  303  git commit -m "week4"
+  304  git push
+  305  bin/ci -i foo -o bar
+  306  ci reference -i foo -o bar
+  307  make all
+  308  make clean
+  309  make all
+  310  make test_hashtable
+  311  make test_week4
+  312  make test_week4
+  313  make clean
+  314  make all
+  315  make test_week4
+  316  git add .
+  317  git commit -m "week4 clean"
+  318  git push
+  319  valgrind --leak-check=full --show-leak-kinds=all bin/ci -i testcases/week4/rec_sum.s
+  320  make all
+  321  make test_week1
+  322  make test_week2
+  323  git add .
+  324  git commit -m "week 1"
+  325  git push
+  326  ls
+  327  . ls
+  328  .
+  329  ./ ls
+  330  ./
+  331  ls
+  332  cat 
+  333  ls 
+  334  cd Desktop
+  335  ls
+  336  ls .
+  337  ls ..
+  338  cd ..
+  339  .
+  340  cd Hw2
+  341  c HW2
+  342  cd HW2
+  343  ls
+  344  cd .
+  345  ls
+  346  cd ..
+  347  clear
+  348  ls
+  349  cd HW2
+  350  ls
+  351  ls ..
+  352  ls .
+  353  cd ..
+  354  /
+  355  ls
+  356  /HW2/hw2
+  357  /HW2/hw2.py
+  358  /
+  359  cd ..
+  360  /
+  361  cd ..
+  362  cd ..
+  363  ls
+  364  cd home
+  365  ls
+  366  cd pkn
+  367  cd ..
+  368  cd ~
+  369  ls
+  370  cd ..
+  371  ls
+  372  cd jennykh
+  373  cd /jennykh/HW2
+  374  cd jennykh
+  375  ls
+  376  ls -l
+  377  ls -la
+  378  ls
+  379  pwd
+  380  ls /u/jennykh
+  381  man ls
+  382  man
+  383  man man
+  384  man 6
+  385  man man 6
+  386  chmod
+  387  chmod --help
+  388  chmod -c
+  389  chmod --help
+  390  man chmod
+  391  ls
+  392  ls -l
+  393  chmod -c HW2 r
+  394  chmod --help
+  395  chmod -c HW2
+  396  man chmod
+  397  ls
+  398  touch hello_worl.c
+  399  ls
+  400  rm -f
+  401  ls
+  402  man rm
+  403  rm hello_worl.c
+  404  ls
+  405  touch hello_world.c
+  406  ls
+  407  code hello_world.c 
+  408  ls -l hello_world.c 
+  409  gcc hello_world.c 
+  410  man gcc
+  411  make
+  412  mini_ci basic_add.s
+  413  mini_ci testcases/basic_add.s
+  414  make check
+  415  make clean
+  416  make
+  417  make
+  418  cd mastery-version-a-master/
+  419  make
+  420  mini_ci
+  421  mini_ci testcases/basic_add.s
+  422  ./mini_ci testcases/basic_add.s
+  423  clear
+  424  make clean
+  425  make debug
+  426  gdb mini_ci
+  427  make 
+  428  mini_ci testcases/basic_add.s
+  429  make check
+  430  make
+  431  make check
+  432  make clean
+  433  make
+  434  make check
+  435  mini_ci testcases/basic_add.s
+  436  mini_ci_reference testcases/basic_add.s
+  437  bash
+  438  mini_ci testcases/basic_add.s
+  439  mini_ci_reference testcases/basic_add.s
+  440  make clean
+  441  make
+  442  make check
+  443  gdb
+  444  make clean
+  445  make debug
+  446  gdb mini_ci
+  447  make clean
+  448  make debug
+  449  make
+  450  make clean
+  451  make
+  452  make check
+  453  make clean
+  454  make debug
+  455  gdb mini_ci
+  456  make check
+  457  make debug
+  458  gdb mini_ci
+  459  make clean
+  460  make check
+  461  gdb mini_ci
+  462  make clean
+  463  make debug
+  464  gdb mini_ci
+  465  make clean
+  466  make check
+  467  make clean
+  468  make check
+  469  make check
+  470  make check
+  471  make check
+  472  history
+  473  history > shell_logs.txt
+  474  rm shell_logs.txt 
+  475  history > logs.txt
+  476  gdb
+  477  gdb
+  478  gdb mini_ci
+  479  cd ..
+  480  cd ..
+  481  cd ..
+  482  ls
+  483  ls -a
+  484  rm .gbinit
+  485  ls -a
+  486  touch .gdbinit
+  487  echo "set history save on" > .gdbinit
+  488  cat .gdbinit 
+  489  ls -a
+  490  ls 
+  491  cd proficiency/
+  492  ls
+  493  rm -rf mastery-version-a-master/
+  494  ls
+  495  clear
+  496  git clone git@github.com:CS429-SP2025/mastery-version-a.git
+  497  cd
+  498  ls
+  499  cd proficiency/
+  500  ls
+  501  make
+  502  make mini_ci
+  503  make check
+  504  mini_ci testcases/err_ops.s
+  505  make clean
+  506  make debug
+  507  gdb mini_ci
+  508  make check
+  509  history > logs.txt
+  510  gdb
+  511  git status
+  512  git add .
+  513  git status
+  514  git commit -m "Finished"
+  515  git status
+  516  git push
+  517  ls
+  518  cd ..
+  519  ls
+  520  rm -rf mastery-version-a/
+  521  git clone git@github.com:jimjamms/mastery-version-a.git
+  522  make
+  523  ls
+  524  cd mastery-version-a/
+  525  ls
+  526  make
+  527  make check
+  528  make clean
+  529  make debug
+  530  gdb
+  531  gdb mini_ci
+  532  make check
+  533  history > logs.txt
+    1  r testcases/err_ops.s
+    2  q
+    3  r testcases/err_ops.s
+    4  bt
+    5  p val_a
+    6  p val_b
+    7  q
+    8  show commands
